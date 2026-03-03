@@ -1,0 +1,1 @@
+Em drives implemento as bibliotecas de acesso ao hardware como USB, ehternet, periféricos(uart, i2c), etc.
