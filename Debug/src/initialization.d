@@ -20,10 +20,11 @@ src/initialization.obj: C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/rom.h
 src/initialization.obj: C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/rom_map.h
 src/initialization.obj: C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/sysctl.h
 src/initialization.obj: C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/uart.h
+src/initialization.obj: ../src/initialization.h
 src/initialization.obj: ../src/definitions.h
 src/initialization.obj: ../src/apps/app_led_blink/app_led_blink.h
 src/initialization.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/pinout/pinout.h
-src/initialization.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/buttons/buttons.h
+src/initialization.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/buttons/buttons.h
 src/initialization.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/uart/drv_uart.h
 src/initialization.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/uart/uartstdio.h
 src/initialization.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
@@ -69,13 +70,15 @@ C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/sysctl.h:
 
 C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/uart.h:
 
+../src/initialization.h:
+
 ../src/definitions.h:
 
 ../src/apps/app_led_blink/app_led_blink.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/pinout/pinout.h:
 
-C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/buttons/buttons.h:
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/buttons/buttons.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/uart/drv_uart.h:
 

@@ -26,6 +26,7 @@ src/tasks_work.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/FreeRTOS.h
 src/tasks_work.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h
+src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -33,7 +34,6 @@ src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/mpu_wrappers.h
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/task.h
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h
-src/tasks_work.obj: ../src/definitions.h
 src/tasks_work.obj: ../src/apps/app_led_blink/app_led_blink.h
 src/tasks_work.obj: ../src/apps/app/app.h
 
@@ -89,6 +89,8 @@ C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h:
 
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h:
+
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h:
@@ -102,8 +104,6 @@ C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/incl
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/task.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h:
-
-../src/definitions.h:
 
 ../src/apps/app_led_blink/app_led_blink.h:
 

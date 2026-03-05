@@ -14,6 +14,7 @@ src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj: C:/ti/ti-cgt-arm
 src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/machine/_stdint.h
 src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/sys/_stdint.h
 src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h
+src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h
 src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h
 src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h
 src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -49,6 +50,8 @@ C:/ti/ti-cgt-arm_20.2.7.LTS/include/machine/_stdint.h:
 C:/ti/ti-cgt-arm_20.2.7.LTS/include/sys/_stdint.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h:
+
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h:
 

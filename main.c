@@ -29,6 +29,7 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "definitions.h"
+#include "initialization.h"
 #include "tasks_work.h"
 #include "uartstdio.h"
 

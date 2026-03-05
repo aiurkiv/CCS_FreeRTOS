@@ -17,6 +17,7 @@ src/third_party/FreeRTOS/Source/tasks.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/m
 src/third_party/FreeRTOS/Source/tasks.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/machine/_stdint.h
 src/third_party/FreeRTOS/Source/tasks.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/sys/_stdint.h
 src/third_party/FreeRTOS/Source/tasks.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h
+src/third_party/FreeRTOS/Source/tasks.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h
 src/third_party/FreeRTOS/Source/tasks.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h
 src/third_party/FreeRTOS/Source/tasks.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h
 src/third_party/FreeRTOS/Source/tasks.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -60,6 +61,8 @@ C:/ti/ti-cgt-arm_20.2.7.LTS/include/machine/_stdint.h:
 C:/ti/ti-cgt-arm_20.2.7.LTS/include/sys/_stdint.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h:
+
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h:
 

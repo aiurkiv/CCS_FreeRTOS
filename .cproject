@@ -54,7 +54,6 @@
                                 <option id="com.ti.ccstudio.buildDefinitions.TMS470_20.2.compilerID.OPT_LEVEL.1621320860" superClass="com.ti.ccstudio.buildDefinitions.TMS470_20.2.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.TMS470_20.2.compilerID.OPT_LEVEL.2" valueType="enumerated"/>
                                 <option id="com.ti.ccstudio.buildDefinitions.TMS470_20.2.compilerID.INCLUDE_PATH.1551863902" superClass="com.ti.ccstudio.buildDefinitions.TMS470_20.2.compilerID.INCLUDE_PATH" valueType="includePath">
                                     <listOptionValue value="${COM_TI_TM4C_INCLUDE_PATH}"/>
-                                    <listOptionValue value="${PROJECT_ROOT}\src\drivers"/>
                                     <listOptionValue value="${PROJECT_ROOT}"/>
                                     <listOptionValue value="${SW_ROOT}/examples/boards/ek-tm4c129exl"/>
                                     <listOptionValue value="${SW_ROOT}"/>
@@ -64,8 +63,11 @@
                                     <listOptionValue value="${FREERTOS_ROOT}\Source\include"/>
                                     <listOptionValue value="${FREERTOS_ROOT}\Source"/>
                                     <listOptionValue value="${FREERTOS_ROOT}"/>
+                                    <listOptionValue value="${SRC_ROOT}\services\buttons"/>
+                                    <listOptionValue value="${SRC_ROOT}\services"/>
                                     <listOptionValue value="${SRC_ROOT}\drivers\uart"/>
                                     <listOptionValue value="${SRC_ROOT}\drivers\pinout"/>
+                                    <listOptionValue value="${SRC_ROOT}\drivers"/>
                                     <listOptionValue value="${SRC_ROOT}"/>
                                 </option>
                                 <option id="com.ti.ccstudio.buildDefinitions.TMS470_20.2.compilerID.DEBUGGING_MODEL.197495582" superClass="com.ti.ccstudio.buildDefinitions.TMS470_20.2.compilerID.DEBUGGING_MODEL" value="com.ti.ccstudio.buildDefinitions.TMS470_20.2.compilerID.DEBUGGING_MODEL.SYMDEBUG__DWARF" valueType="enumerated"/>

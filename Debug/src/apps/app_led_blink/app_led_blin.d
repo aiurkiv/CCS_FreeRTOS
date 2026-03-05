@@ -16,6 +16,7 @@ src/apps/app_led_blink/app_led_blin.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/std
 src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/FreeRTOS.h
 src/apps/app_led_blink/app_led_blin.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h
 src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h
+src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h
 src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h
 src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h
 src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -23,7 +24,6 @@ src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/free
 src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/mpu_wrappers.h
 src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/task.h
 src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h
-src/apps/app_led_blink/app_led_blin.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h
 src/apps/app_led_blink/app_led_blin.obj: C:/ti/TivaWare_C_Series-2.2.0.295/inc/hw_gpio.h
 src/apps/app_led_blink/app_led_blin.obj: C:/ti/TivaWare_C_Series-2.2.0.295/inc/hw_memmap.h
 src/apps/app_led_blink/app_led_blin.obj: C:/ti/TivaWare_C_Series-2.2.0.295/inc/hw_types.h
@@ -68,6 +68,8 @@ C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h:
 
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h:
+
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h:
@@ -81,8 +83,6 @@ C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/incl
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/task.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h:
-
-C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h:
 
 C:/ti/TivaWare_C_Series-2.2.0.295/inc/hw_gpio.h:
 

@@ -121,9 +121,10 @@ void Buttons_Init(uint32_t sysclk_hz)
     MAP_TimerIntClear(TIMER0_BASE, TIMER_TIMA_TIMEOUT);
     MAP_TimerIntEnable(TIMER0_BASE, TIMER_TIMA_TIMEOUT);
 
-    // Habilita NVIC (sem FreeRTOS, prioridade pode ser qualquer; mantenha intermediária)
-    MAP_IntPrioritySet(INT_TIMER0A, 7 << 5);
-    MAP_IntPrioritySet(INT_GPIOJ,   7 << 5);
+    // Habilita NVIC *** Deixar prioridade abaixo do FreeRTOS (configMAX_SYSCALL_INTERRUPT_PRIORITY = 5 << 5)
+    // *** Quanto número maior == prioridade menor
+    MAP_IntPrioritySet(INT_TIMER0A, PRIORITY_INTERRUPT_TIMER_BOUNCING);    // *** Pensar em uma forma mais "global" de definir o valor da prioridade como configKERNEL_INTERRUPT_PRIORITY, porém sem expor o freertos nessa biblioteca
+    MAP_IntPrioritySet(INT_GPIOJ,   PRIORITY_INTERRUPT_BUTTONS);
 
     // Mapeio as funçõs que serão chamadas na interrupção.
     // Essa é a forma mais recente de configurar a função de interrupção da tivaware, porém também é possivel

@@ -22,6 +22,7 @@ main.obj: C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/sysctl.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/FreeRTOS.h
 main.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h
+main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -29,7 +30,7 @@ main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/S
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/mpu_wrappers.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/task.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h
-main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h
+main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/initialization.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/tasks_work.h
 main.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/uart/uartstdio.h
 main.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
@@ -78,6 +79,8 @@ C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h:
 
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h:
+
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h:
@@ -92,7 +95,7 @@ C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/incl
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h:
 
-C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h:
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/initialization.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/tasks_work.h:
 

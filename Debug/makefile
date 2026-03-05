@@ -14,12 +14,13 @@ ORDERED_OBJS += \
 "./startup_ccs.obj" \
 "./src/apps/app/app.obj" \
 "./src/apps/app_led_blink/app_led_blin.obj" \
-"./src/drivers/buttons/buttons.obj" \
 "./src/drivers/pinout/pinout.obj" \
 "./src/drivers/uart/drv_uart.obj" \
 "./src/drivers/uart/uartstdio.obj" \
 "./src/initialization.obj" \
 "./src/tasks_work.obj" \
+"./src/services/adc/adc_service.obj" \
+"./src/services/buttons/buttons.obj" \
 "./src/third_party/FreeRTOS/Source/croutine.obj" \
 "./src/third_party/FreeRTOS/Source/event_groups.obj" \
 "./src/third_party/FreeRTOS/Source/list.obj" \
@@ -44,20 +45,22 @@ RMDIR := RMDIR /S/Q
 -include subdir_vars.mk
 -include src/apps/app/subdir_vars.mk
 -include src/apps/app_led_blink/subdir_vars.mk
--include src/drivers/buttons/subdir_vars.mk
 -include src/drivers/pinout/subdir_vars.mk
 -include src/drivers/uart/subdir_vars.mk
 -include src/subdir_vars.mk
+-include src/services/adc/subdir_vars.mk
+-include src/services/buttons/subdir_vars.mk
 -include src/third_party/FreeRTOS/Source/subdir_vars.mk
 -include src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/subdir_vars.mk
 -include src/third_party/FreeRTOS/Source/portable/MemMang/subdir_vars.mk
 -include subdir_rules.mk
 -include src/apps/app/subdir_rules.mk
 -include src/apps/app_led_blink/subdir_rules.mk
--include src/drivers/buttons/subdir_rules.mk
 -include src/drivers/pinout/subdir_rules.mk
 -include src/drivers/uart/subdir_rules.mk
 -include src/subdir_rules.mk
+-include src/services/adc/subdir_rules.mk
+-include src/services/buttons/subdir_rules.mk
 -include src/third_party/FreeRTOS/Source/subdir_rules.mk
 -include src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F/subdir_rules.mk
 -include src/third_party/FreeRTOS/Source/portable/MemMang/subdir_rules.mk
@@ -173,8 +176,8 @@ freertos.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "main.obj" "startup_ccs.obj" "src\apps\app\app.obj" "src\apps\app_led_blink\app_led_blin.obj" "src\drivers\buttons\buttons.obj" "src\drivers\pinout\pinout.obj" "src\drivers\uart\drv_uart.obj" "src\drivers\uart\uartstdio.obj" "src\initialization.obj" "src\tasks_work.obj" "src\third_party\FreeRTOS\Source\croutine.obj" "src\third_party\FreeRTOS\Source\event_groups.obj" "src\third_party\FreeRTOS\Source\list.obj" "src\third_party\FreeRTOS\Source\queue.obj" "src\third_party\FreeRTOS\Source\tasks.obj" "src\third_party\FreeRTOS\Source\timers.obj" "src\third_party\FreeRTOS\Source\portable\CCS\ARM_CM4F\port.obj" "src\third_party\FreeRTOS\Source\portable\CCS\ARM_CM4F\portasm.obj" "src\third_party\FreeRTOS\Source\portable\MemMang\heap_4.obj" 
-	-$(RM) "main.d" "startup_ccs.d" "src\apps\app\app.d" "src\apps\app_led_blink\app_led_blin.d" "src\drivers\buttons\buttons.d" "src\drivers\pinout\pinout.d" "src\drivers\uart\drv_uart.d" "src\drivers\uart\uartstdio.d" "src\initialization.d" "src\tasks_work.d" "src\third_party\FreeRTOS\Source\croutine.d" "src\third_party\FreeRTOS\Source\event_groups.d" "src\third_party\FreeRTOS\Source\list.d" "src\third_party\FreeRTOS\Source\queue.d" "src\third_party\FreeRTOS\Source\tasks.d" "src\third_party\FreeRTOS\Source\timers.d" "src\third_party\FreeRTOS\Source\portable\CCS\ARM_CM4F\port.d" "src\third_party\FreeRTOS\Source\portable\MemMang\heap_4.d" 
+	-$(RM) "main.obj" "startup_ccs.obj" "src\apps\app\app.obj" "src\apps\app_led_blink\app_led_blin.obj" "src\drivers\pinout\pinout.obj" "src\drivers\uart\drv_uart.obj" "src\drivers\uart\uartstdio.obj" "src\initialization.obj" "src\tasks_work.obj" "src\services\adc\adc_service.obj" "src\services\buttons\buttons.obj" "src\third_party\FreeRTOS\Source\croutine.obj" "src\third_party\FreeRTOS\Source\event_groups.obj" "src\third_party\FreeRTOS\Source\list.obj" "src\third_party\FreeRTOS\Source\queue.obj" "src\third_party\FreeRTOS\Source\tasks.obj" "src\third_party\FreeRTOS\Source\timers.obj" "src\third_party\FreeRTOS\Source\portable\CCS\ARM_CM4F\port.obj" "src\third_party\FreeRTOS\Source\portable\CCS\ARM_CM4F\portasm.obj" "src\third_party\FreeRTOS\Source\portable\MemMang\heap_4.obj" 
+	-$(RM) "main.d" "startup_ccs.d" "src\apps\app\app.d" "src\apps\app_led_blink\app_led_blin.d" "src\drivers\pinout\pinout.d" "src\drivers\uart\drv_uart.d" "src\drivers\uart\uartstdio.d" "src\initialization.d" "src\tasks_work.d" "src\services\adc\adc_service.d" "src\services\buttons\buttons.d" "src\third_party\FreeRTOS\Source\croutine.d" "src\third_party\FreeRTOS\Source\event_groups.d" "src\third_party\FreeRTOS\Source\list.d" "src\third_party\FreeRTOS\Source\queue.d" "src\third_party\FreeRTOS\Source\tasks.d" "src\third_party\FreeRTOS\Source\timers.d" "src\third_party\FreeRTOS\Source\portable\CCS\ARM_CM4F\port.d" "src\third_party\FreeRTOS\Source\portable\MemMang\heap_4.d" 
 	-$(RM) "src\third_party\FreeRTOS\Source\portable\CCS\ARM_CM4F\portasm.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

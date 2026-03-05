@@ -16,11 +16,12 @@ src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/pi
 src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdbool.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/uart/uartstdio.h
 src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
-src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/buttons/buttons.h
+src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/buttons/buttons.h
 src/apps/app/app.obj: C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/gpio.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/FreeRTOS.h
 src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h
+src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/portable.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -62,7 +63,7 @@ C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/uart/uartstdio.h:
 
 C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
 
-C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/buttons/buttons.h:
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/buttons/buttons.h:
 
 C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/gpio.h:
 
@@ -71,6 +72,8 @@ C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/incl
 C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h:
+
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/definitions.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/projdefs.h:
 

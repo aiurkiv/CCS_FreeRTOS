@@ -66,6 +66,8 @@
  * See http://www.freertos.org/a00110.html.
  *----------------------------------------------------------*/
 
+#include "definitions.h"
+
 #define configUSE_PREEMPTION                1
 //define configUSE_IDLE_HOOK                 1
 #define configUSE_IDLE_HOOK                 0
@@ -106,8 +108,8 @@ to exclude the API function. */
 /* Be ENORMOUSLY careful if you want to modify these two values and make sure
  * you read http://www.freertos.org/a00110.html#kernel_priority first!
  */
-#define configKERNEL_INTERRUPT_PRIORITY         ( 7 << 5 )    /* Priority 7, or 0xE0 as only the top three bits are implemented.  This is the lowest priority. */
-#define configMAX_SYSCALL_INTERRUPT_PRIORITY     ( 5 << 5 )  /* Priority 5, or 0xA0 as only the top three bits are implemented. */
+#define configKERNEL_INTERRUPT_PRIORITY         PRIORITY_KERNEL_INTERRUPT
+#define configMAX_SYSCALL_INTERRUPT_PRIORITY    PRIORITY_MAX_SYSCALL_INTERRUPT
 
 // Gerei define abaixo conforme GPT explicou
 #define configASSERT(x) if((x)==0) { taskDISABLE_INTERRUPTS(); for(;;); }

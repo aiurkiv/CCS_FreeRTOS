@@ -9,6 +9,7 @@
 #include "driverlib/sysctl.h"
 #include "driverlib/uart.h"
 
+#include "initialization.h"
 #include "definitions.h"
 #include "apps/app_led_blink/app_led_blink.h"
 #include "pinout/pinout.h"
