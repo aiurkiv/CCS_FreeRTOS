@@ -22,9 +22,13 @@
 //
 //*****************************************************************************
 
+#include <stdbool.h>
 #include <stdint.h>
+#include "inc/hw_gpio.h"
+#include "inc/hw_memmap.h"
 #include "inc/hw_nvic.h"
 #include "inc/hw_types.h"
+#include "driverlib/gpio.h"
 
 //*****************************************************************************
 //
@@ -35,6 +39,7 @@ void ResetISR(void);
 static void NmiSR(void);
 static void FaultISR(void);
 static void IntDefaultHandler(void);
+static void StartupSignalFault(uint32_t portf_mask, uint32_t portn_mask);
 
 //*****************************************************************************
 //
@@ -60,6 +65,7 @@ extern uint32_t __STACK_TOP;
 extern void xPortPendSVHandler( void );
 extern void xPortSysTickHandler( void );
 extern void vPortSVCHandler( void );
+extern void USB0OTGModeIntHandler(void);
 
 //*****************************************************************************
 //
@@ -130,7 +136,7 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,                      // CAN1
     IntDefaultHandler,                      // Ethernet
     IntDefaultHandler,                      // Hibernate
-    IntDefaultHandler,                      // USB0
+    USB0OTGModeIntHandler,                  // USB0
     IntDefaultHandler,                      // PWM Generator 3
     IntDefaultHandler,                      // uDMA Software Transfer
     IntDefaultHandler,                      // uDMA Error
@@ -233,6 +239,8 @@ ResetISR(void)
 static void
 NmiSR(void)
 {
+    StartupSignalFault(GPIO_PIN_0, GPIO_PIN_0);
+
     //
     // Enter an infinite loop.
     //
@@ -251,6 +259,8 @@ NmiSR(void)
 static void
 FaultISR(void)
 {
+    StartupSignalFault(GPIO_PIN_4, GPIO_PIN_1);
+
     //
     // Enter an infinite loop.
     //
@@ -269,10 +279,26 @@ FaultISR(void)
 static void
 IntDefaultHandler(void)
 {
+    StartupSignalFault(GPIO_PIN_0 | GPIO_PIN_4, GPIO_PIN_0 | GPIO_PIN_1);
+
     //
     // Go into an infinite loop.
     //
     while(1)
     {
+    }
+}
+
+static void
+StartupSignalFault(uint32_t portf_mask, uint32_t portn_mask)
+{
+    if(portf_mask != 0U)
+    {
+        HWREG(GPIO_PORTF_BASE + (GPIO_O_DATA + (portf_mask << 2))) = portf_mask;
+    }
+
+    if(portn_mask != 0U)
+    {
+        HWREG(GPIO_PORTN_BASE + (GPIO_O_DATA + (portn_mask << 2))) = portn_mask;
     }
 }

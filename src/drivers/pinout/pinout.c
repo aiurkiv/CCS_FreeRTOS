@@ -67,12 +67,16 @@
 //***Pinout_Init************************************************************
 void Pinout_Init(void)
 {
-    // Garanto que todas as interrupções estão desabilitadas
-    MAP_IntMasterDisable();
     // Habilito os periféricos que uso de forma direta (leds - apenas ativo e desativo, não uso interrupção)
+    MAP_SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOC);
+    MAP_SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOD);
+    MAP_SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOE);
     MAP_SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF);
     MAP_SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION);
     // Aguarda os periféricos iniciarem
+    while(!MAP_SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOC)) {}
+    while(!MAP_SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOD)) {}
+    while(!MAP_SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOE)) {}
     while(!MAP_SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF)) {}
     while(!MAP_SysCtlPeripheralReady(SYSCTL_PERIPH_GPION)) {}
     // Configuro GPIOF pinos 0 e 4 como outputs (leds)

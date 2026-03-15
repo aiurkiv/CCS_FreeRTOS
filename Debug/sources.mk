@@ -108,12 +108,15 @@ SUBDIRS := \
 . \
 src/apps/app \
 src/apps/app_led_blink \
+src/drivers/display_lcd \
 src/drivers/pinout \
 src/drivers/uart \
 src \
 src/services/adc \
 src/services/buttons \
+src/services/keyboard_usb \
 src/third_party/FreeRTOS/Source \
 src/third_party/FreeRTOS/Source/portable/CCS/ARM_CM4F \
 src/third_party/FreeRTOS/Source/portable/MemMang \
+src/utils \
 

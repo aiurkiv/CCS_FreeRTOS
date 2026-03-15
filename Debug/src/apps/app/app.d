@@ -12,12 +12,6 @@ src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/sys/_types.h
 src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/machine/_types.h
 src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/machine/_stdint.h
 src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/sys/_stdint.h
-src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/pinout/pinout.h
-src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdbool.h
-src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/uart/uartstdio.h
-src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
-src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/buttons/buttons.h
-src/apps/app/app.obj: C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/gpio.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/FreeRTOS.h
 src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/FreeRTOSConfig.h
@@ -30,6 +24,13 @@ src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_part
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/task.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h
 src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/queue.h
+src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/buttons/buttons.h
+src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/display_lcd/display_lcd.h
+src/apps/app/app.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/keyboard_usb/keyboard_usb_service.h
+src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdio.h
+src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
+src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/string.h
+src/apps/app/app.obj: C:/ti/ti-cgt-arm_20.2.7.LTS/include/xlocale/_string.h
 
 ../src/apps/app/app.c:
 
@@ -55,18 +56,6 @@ C:/ti/ti-cgt-arm_20.2.7.LTS/include/machine/_stdint.h:
 
 C:/ti/ti-cgt-arm_20.2.7.LTS/include/sys/_stdint.h:
 
-C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/pinout/pinout.h:
-
-C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdbool.h:
-
-C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/uart/uartstdio.h:
-
-C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
-
-C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/buttons/buttons.h:
-
-C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/gpio.h:
-
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/FreeRTOS.h:
 
 C:/ti/ti-cgt-arm_20.2.7.LTS/include/stddef.h:
@@ -90,4 +79,18 @@ C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/incl
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h:
 
 C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/queue.h:
+
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/buttons/buttons.h:
+
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/drivers/display_lcd/display_lcd.h:
+
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/keyboard_usb/keyboard_usb_service.h:
+
+C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
+
+C:/ti/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
+
+C:/ti/ti-cgt-arm_20.2.7.LTS/include/string.h:
+
+C:/ti/ti-cgt-arm_20.2.7.LTS/include/xlocale/_string.h:
 

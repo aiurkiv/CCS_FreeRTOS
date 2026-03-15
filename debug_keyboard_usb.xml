@@ -1,0 +1,2640 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="DefaultStylesheet.xsl"?>
+<log>
+<record>
+  <date>2026-03-14T13:49:07.951872600Z</date>
+  <millis>1773496147951</millis>
+  <nanos>872600</nanos>
+  <sequence>3</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>traceSetFileLevel</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:07.975877700Z</date>
+  <millis>1773496147975</millis>
+  <nanos>877700</nanos>
+  <sequence>4</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>setScriptTimeout</method>
+  <thread>1</thread>
+  <message>ENTRY nTimeout: 120000</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:07.976877800Z</date>
+  <millis>1773496147976</millis>
+  <nanos>877800</nanos>
+  <sequence>5</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>setScriptTimeout</method>
+  <thread>1</thread>
+  <message>Timeout is 120000ms</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:07.981871600Z</date>
+  <millis>1773496147981</millis>
+  <nanos>871600</nanos>
+  <sequence>6</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>setScriptTimeout</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:07.983979600Z</date>
+  <millis>1773496147983</millis>
+  <nanos>979600</nanos>
+  <sequence>7</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>getServer</method>
+  <thread>1</thread>
+  <message>ENTRY sServerName: DebugServer.1</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:07.983979600Z</date>
+  <millis>1773496147983</millis>
+  <nanos>979600</nanos>
+  <sequence>8</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>getServer</method>
+  <thread>1</thread>
+  <message>Getting definition for: DebugServer.1</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:07.994879Z</date>
+  <millis>1773496147994</millis>
+  <nanos>879000</nanos>
+  <sequence>9</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>getServer</method>
+  <thread>1</thread>
+  <message>Constructing server</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.005870600Z</date>
+  <millis>1773496148005</millis>
+  <nanos>870600</nanos>
+  <sequence>10</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>getServer</method>
+  <thread>1</thread>
+  <message>RETURN com.ti.debug.engine.scripting.DebugServer@50de0926</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.009878700Z</date>
+  <millis>1773496148009</millis>
+  <nanos>878700</nanos>
+  <sequence>11</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>setConfig</method>
+  <thread>1</thread>
+  <message>ENTRY sConfigurationFile: c:/Anderson/Projetos/CCS_WorkSpace/freertos/target_config.ccxml</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.009878700Z</date>
+  <millis>1773496148009</millis>
+  <nanos>878700</nanos>
+  <sequence>12</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>setConfig</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.011914Z</date>
+  <millis>1773496148011</millis>
+  <nanos>914000</nanos>
+  <sequence>13</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>openSession</method>
+  <thread>1</thread>
+  <message>ENTRY sPattern: .*</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.012876400Z</date>
+  <millis>1773496148012</millis>
+  <nanos>876400</nanos>
+  <sequence>14</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.012876400Z</date>
+  <millis>1773496148012</millis>
+  <nanos>876400</nanos>
+  <sequence>15</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Firing: onServerStarting()</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.012876400Z</date>
+  <millis>1773496148012</millis>
+  <nanos>876400</nanos>
+  <sequence>16</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Connecting to XPCOM DebugServer</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.131876200Z</date>
+  <millis>1773496148131</millis>
+  <nanos>876200</nanos>
+  <sequence>17</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Initializing DebugServer using specified configuration: "c:/Anderson/Projetos/CCS_WorkSpace/freertos/target_config.ccxml"</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:08.138926Z</date>
+  <millis>1773496148138</millis>
+  <nanos>926000</nanos>
+  <sequence>18</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer$Callback</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.440454600Z</date>
+  <millis>1773496153440</millis>
+  <nanos>454600</nanos>
+  <sequence>19</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>CPU Name: CORTEX_M4_0</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.441363Z</date>
+  <millis>1773496153441</millis>
+  <nanos>363000</nanos>
+  <sequence>20</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>PartNum: TM4C129ENCPDT</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.441363Z</date>
+  <millis>1773496153441</millis>
+  <nanos>363000</nanos>
+  <sequence>21</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>Family: 470</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.441363Z</date>
+  <millis>1773496153441</millis>
+  <nanos>363000</nanos>
+  <sequence>22</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>SubFamily/MajorISA: e</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.441363Z</date>
+  <millis>1773496153441</millis>
+  <nanos>363000</nanos>
+  <sequence>23</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>Revision/MinorISA: 0</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.441363Z</date>
+  <millis>1773496153441</millis>
+  <nanos>363000</nanos>
+  <sequence>24</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>Platform: EMULATOR</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.441363Z</date>
+  <millis>1773496153441</millis>
+  <nanos>363000</nanos>
+  <sequence>25</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>Processor ID: 1971337216</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.453360500Z</date>
+  <millis>1773496153453</millis>
+  <nanos>360500</nanos>
+  <sequence>26</sequence>
+  <logger>com.ti.debug.engine.scripting.Options</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Options</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>DBName: ArmAdvancedFeatures</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.455366400Z</date>
+  <millis>1773496153455</millis>
+  <nanos>366400</nanos>
+  <sequence>27</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer$Callback</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.455366400Z</date>
+  <millis>1773496153455</millis>
+  <nanos>366400</nanos>
+  <sequence>28</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Firing: onServerStarted()</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.455366400Z</date>
+  <millis>1773496153455</millis>
+  <nanos>366400</nanos>
+  <sequence>29</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Searching for devices</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.455366400Z</date>
+  <millis>1773496153455</millis>
+  <nanos>366400</nanos>
+  <sequence>30</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>listDevices</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.455366400Z</date>
+  <millis>1773496153455</millis>
+  <nanos>366400</nanos>
+  <sequence>31</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>listDevices</method>
+  <thread>1</thread>
+  <message>Found debuggable device: Stellaris In-Circuit Debug Interface_0/CORTEX_M4_0</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.456364300Z</date>
+  <millis>1773496153456</millis>
+  <nanos>364300</nanos>
+  <sequence>32</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>listDevices</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.456364300Z</date>
+  <millis>1773496153456</millis>
+  <nanos>364300</nanos>
+  <sequence>33</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.456364300Z</date>
+  <millis>1773496153456</millis>
+  <nanos>364300</nanos>
+  <sequence>34</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>openSession</method>
+  <thread>1</thread>
+  <message>Searching for device exactly matching name: .*</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.457360500Z</date>
+  <millis>1773496153457</millis>
+  <nanos>360500</nanos>
+  <sequence>35</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>openSession</method>
+  <thread>1</thread>
+  <message>No exact name matches found.  Searching for device matching regular expression: .*</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.457360500Z</date>
+  <millis>1773496153457</millis>
+  <nanos>360500</nanos>
+  <sequence>36</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>openSession</method>
+  <thread>1</thread>
+  <message>RETURN Stellaris In-Circuit Debug Interface_0/CORTEX_M4_0</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.459364600Z</date>
+  <millis>1773496153459</millis>
+  <nanos>364600</nanos>
+  <sequence>37</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.460362500Z</date>
+  <millis>1773496153460</millis>
+  <nanos>362500</nanos>
+  <sequence>38</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.460362500Z</date>
+  <millis>1773496153460</millis>
+  <nanos>362500</nanos>
+  <sequence>39</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>Target is not connected</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.460362500Z</date>
+  <millis>1773496153460</millis>
+  <nanos>362500</nanos>
+  <sequence>40</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>RETURN false</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.460362500Z</date>
+  <millis>1773496153460</millis>
+  <nanos>362500</nanos>
+  <sequence>41</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>Requesting target connect</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:13.461414Z</date>
+  <millis>1773496153461</millis>
+  <nanos>414000</nanos>
+  <sequence>42</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target$OnConnectedListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.036572600Z</date>
+  <millis>1773496154036</millis>
+  <nanos>572600</nanos>
+  <sequence>43</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.AbstractListener</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Target is now connected</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.036572600Z</date>
+  <millis>1773496154036</millis>
+  <nanos>572600</nanos>
+  <sequence>44</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target$OnConnectedListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.037573500Z</date>
+  <millis>1773496154037</millis>
+  <nanos>573500</nanos>
+  <sequence>45</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.038573100Z</date>
+  <millis>1773496154038</millis>
+  <nanos>573100</nanos>
+  <sequence>46</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>Target is connected</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.039573Z</date>
+  <millis>1773496154039</millis>
+  <nanos>573000</nanos>
+  <sequence>47</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.039573Z</date>
+  <millis>1773496154039</millis>
+  <nanos>573000</nanos>
+  <sequence>48</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.039573Z</date>
+  <millis>1773496154039</millis>
+  <nanos>573000</nanos>
+  <sequence>49</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Memory</class>
+  <method>loadProgram</method>
+  <thread>1</thread>
+  <message>ENTRY sFileName: c:/Anderson/Projetos/CCS_WorkSpace/freertos/Debug/freertos.out</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.040572500Z</date>
+  <millis>1773496154040</millis>
+  <nanos>572500</nanos>
+  <sequence>50</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Memory</class>
+  <method>load</method>
+  <thread>1</thread>
+  <message>Requesting program load</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:14.046572900Z</date>
+  <millis>1773496154046</millis>
+  <nanos>572900</nanos>
+  <sequence>51</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnCompleteWithErrorInfo</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.564937400Z</date>
+  <millis>1773496156564</millis>
+  <nanos>937400</nanos>
+  <sequence>52</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnCompleteWithErrorInfo</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.565937800Z</date>
+  <millis>1773496156565</millis>
+  <nanos>937800</nanos>
+  <sequence>53</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Memory</class>
+  <method>load</method>
+  <thread>1</thread>
+  <message>Program load successful</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.565937800Z</date>
+  <millis>1773496156565</millis>
+  <nanos>937800</nanos>
+  <sequence>54</sequence>
+  <logger>com.ti.debug.engine.scripting.Options</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Options</class>
+  <method>getBoolean</method>
+  <thread>1</thread>
+  <message>ENTRY ID: AutoRunToLabelOnRestart</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.569936600Z</date>
+  <millis>1773496156569</millis>
+  <nanos>936600</nanos>
+  <sequence>55</sequence>
+  <logger>com.ti.debug.engine.scripting.Options</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Options</class>
+  <method>getBoolean</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.584954900Z</date>
+  <millis>1773496156584</millis>
+  <nanos>954900</nanos>
+  <sequence>56</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer</class>
+  <method>waitForHaltIfPropertySet</method>
+  <thread>1</thread>
+  <message>Waiting for halt</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.584954900Z</date>
+  <millis>1773496156584</millis>
+  <nanos>954900</nanos>
+  <sequence>57</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.589082700Z</date>
+  <millis>1773496156589</millis>
+  <nanos>82700</nanos>
+  <sequence>58</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.AbstractListener</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Target has halted at 0x00006964</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.590002400Z</date>
+  <millis>1773496156590</millis>
+  <nanos>2400</nanos>
+  <sequence>59</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.590002400Z</date>
+  <millis>1773496156590</millis>
+  <nanos>2400</nanos>
+  <sequence>60</sequence>
+  <logger>com.ti.debug.engine.scripting.Memory</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Memory</class>
+  <method>loadProgram</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.591998Z</date>
+  <millis>1773496156591</millis>
+  <nanos>998000</nanos>
+  <sequence>61</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>removeAll</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.591998Z</date>
+  <millis>1773496156591</millis>
+  <nanos>998000</nanos>
+  <sequence>62</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>removeAll</method>
+  <thread>1</thread>
+  <message>Getting breakpoint manager</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.593000400Z</date>
+  <millis>1773496156593</millis>
+  <nanos>400</nanos>
+  <sequence>63</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>removeAll</method>
+  <thread>1</thread>
+  <message>Removing 0 breakpoint(s)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.593000400Z</date>
+  <millis>1773496156593</millis>
+  <nanos>400</nanos>
+  <sequence>64</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>removeAll</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.594999100Z</date>
+  <millis>1773496156594</millis>
+  <nanos>999100</nanos>
+  <sequence>65</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>ENTRY sFile: app.c nLine: 146</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.595999800Z</date>
+  <millis>1773496156595</millis>
+  <nanos>999800</nanos>
+  <sequence>66</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Getting breakpoint manager</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.600997700Z</date>
+  <millis>1773496156600</millis>
+  <nanos>997700</nanos>
+  <sequence>67</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Assigning source-line location</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.602998200Z</date>
+  <millis>1773496156602</millis>
+  <nanos>998200</nanos>
+  <sequence>68</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>createAtLocation</method>
+  <thread>1</thread>
+  <message>Creating new breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.606997200Z</date>
+  <millis>1773496156606</millis>
+  <nanos>997200</nanos>
+  <sequence>69</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Adding breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.607999Z</date>
+  <millis>1773496156607</millis>
+  <nanos>999000</nanos>
+  <sequence>70</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Enabling breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.611002700Z</date>
+  <millis>1773496156611</millis>
+  <nanos>2700</nanos>
+  <sequence>71</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>RETURN 10</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.611002700Z</date>
+  <millis>1773496156611</millis>
+  <nanos>2700</nanos>
+  <sequence>72</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>ENTRY sFile: startup_ccs.c nLine: 260</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.612114400Z</date>
+  <millis>1773496156612</millis>
+  <nanos>114400</nanos>
+  <sequence>73</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Getting breakpoint manager</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.612114400Z</date>
+  <millis>1773496156612</millis>
+  <nanos>114400</nanos>
+  <sequence>74</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Assigning source-line location</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.612114400Z</date>
+  <millis>1773496156612</millis>
+  <nanos>114400</nanos>
+  <sequence>75</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>createAtLocation</method>
+  <thread>1</thread>
+  <message>Creating new breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.612999100Z</date>
+  <millis>1773496156612</millis>
+  <nanos>999100</nanos>
+  <sequence>76</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Adding breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.612999100Z</date>
+  <millis>1773496156612</millis>
+  <nanos>999100</nanos>
+  <sequence>77</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Enabling breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.616053600Z</date>
+  <millis>1773496156616</millis>
+  <nanos>53600</nanos>
+  <sequence>78</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>RETURN 12</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.616053600Z</date>
+  <millis>1773496156616</millis>
+  <nanos>53600</nanos>
+  <sequence>79</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>ENTRY sFile: startup_ccs.c nLine: 280</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.617108100Z</date>
+  <millis>1773496156617</millis>
+  <nanos>108100</nanos>
+  <sequence>80</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Getting breakpoint manager</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.617108100Z</date>
+  <millis>1773496156617</millis>
+  <nanos>108100</nanos>
+  <sequence>81</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Assigning source-line location</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.617108100Z</date>
+  <millis>1773496156617</millis>
+  <nanos>108100</nanos>
+  <sequence>82</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>createAtLocation</method>
+  <thread>1</thread>
+  <message>Creating new breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.618037700Z</date>
+  <millis>1773496156618</millis>
+  <nanos>37700</nanos>
+  <sequence>83</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Adding breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.618037700Z</date>
+  <millis>1773496156618</millis>
+  <nanos>37700</nanos>
+  <sequence>84</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Enabling breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.621682400Z</date>
+  <millis>1773496156621</millis>
+  <nanos>682400</nanos>
+  <sequence>85</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>RETURN 14</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.621682400Z</date>
+  <millis>1773496156621</millis>
+  <nanos>682400</nanos>
+  <sequence>86</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>restart</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.622710500Z</date>
+  <millis>1773496156622</millis>
+  <nanos>710500</nanos>
+  <sequence>87</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>restart</method>
+  <thread>1</thread>
+  <message>Requesting target restart</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.622710500Z</date>
+  <millis>1773496156622</millis>
+  <nanos>710500</nanos>
+  <sequence>88</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target$OnRestartListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.640625600Z</date>
+  <millis>1773496156640</millis>
+  <nanos>625600</nanos>
+  <sequence>89</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target$OnRestartListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.640625600Z</date>
+  <millis>1773496156640</millis>
+  <nanos>625600</nanos>
+  <sequence>90</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>restart</method>
+  <thread>1</thread>
+  <message>Target restarted</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.640625600Z</date>
+  <millis>1773496156640</millis>
+  <nanos>625600</nanos>
+  <sequence>91</sequence>
+  <logger>com.ti.debug.engine.scripting.Options</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Options</class>
+  <method>getBoolean</method>
+  <thread>1</thread>
+  <message>ENTRY ID: AutoRunToLabelOnRestart</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.641640700Z</date>
+  <millis>1773496156641</millis>
+  <nanos>640700</nanos>
+  <sequence>92</sequence>
+  <logger>com.ti.debug.engine.scripting.Options</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Options</class>
+  <method>getBoolean</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.655467400Z</date>
+  <millis>1773496156655</millis>
+  <nanos>467400</nanos>
+  <sequence>93</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer</class>
+  <method>waitForHaltIfPropertySet</method>
+  <thread>1</thread>
+  <message>Waiting for halt</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.655467400Z</date>
+  <millis>1773496156655</millis>
+  <nanos>467400</nanos>
+  <sequence>94</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.659512300Z</date>
+  <millis>1773496156659</millis>
+  <nanos>512300</nanos>
+  <sequence>95</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.AbstractListener</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Target has halted at 0x00006964</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.660469800Z</date>
+  <millis>1773496156660</millis>
+  <nanos>469800</nanos>
+  <sequence>96</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.660469800Z</date>
+  <millis>1773496156660</millis>
+  <nanos>469800</nanos>
+  <sequence>97</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>restart</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.660469800Z</date>
+  <millis>1773496156660</millis>
+  <nanos>469800</nanos>
+  <sequence>98</sequence>
+  <logger>com.ti</logger>
+  <level>INFO</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>traceWrite</method>
+  <thread>1</thread>
+  <message>Target running. Pressione uma tecla no teclado USB agora.</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.661469800Z</date>
+  <millis>1773496156661</millis>
+  <nanos>469800</nanos>
+  <sequence>99</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.662475Z</date>
+  <millis>1773496156662</millis>
+  <nanos>475000</nanos>
+  <sequence>100</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.ExecutionOperation</class>
+  <method>go</method>
+  <thread>1</thread>
+  <message>Requesting target execution</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.664468100Z</date>
+  <millis>1773496156664</millis>
+  <nanos>468100</nanos>
+  <sequence>101</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.969854200Z</date>
+  <millis>1773496156969</millis>
+  <nanos>854200</nanos>
+  <sequence>102</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.AbstractListener</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Target has halted at 0x00008804</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.969854200Z</date>
+  <millis>1773496156969</millis>
+  <nanos>854200</nanos>
+  <sequence>103</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.969854200Z</date>
+  <millis>1773496156969</millis>
+  <nanos>854200</nanos>
+  <sequence>104</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.971854900Z</date>
+  <millis>1773496156971</millis>
+  <nanos>854900</nanos>
+  <sequence>105</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>evaluate</method>
+  <thread>1</thread>
+  <message>ENTRY sExpression: PC</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.971854900Z</date>
+  <millis>1773496156971</millis>
+  <nanos>854900</nanos>
+  <sequence>106</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>eval</method>
+  <thread>1</thread>
+  <message>Requesting evaluation of expression: "PC"</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.972854400Z</date>
+  <millis>1773496156972</millis>
+  <nanos>854400</nanos>
+  <sequence>107</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.972854400Z</date>
+  <millis>1773496156972</millis>
+  <nanos>854400</nanos>
+  <sequence>108</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>Target is connected</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.972854400Z</date>
+  <millis>1773496156972</millis>
+  <nanos>854400</nanos>
+  <sequence>109</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.972854400Z</date>
+  <millis>1773496156972</millis>
+  <nanos>854400</nanos>
+  <sequence>110</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.974856400Z</date>
+  <millis>1773496156974</millis>
+  <nanos>856400</nanos>
+  <sequence>111</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>Target is halted</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.974856400Z</date>
+  <millis>1773496156974</millis>
+  <nanos>856400</nanos>
+  <sequence>112</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.979859Z</date>
+  <millis>1773496156979</millis>
+  <nanos>859000</nanos>
+  <sequence>113</sequence>
+  <logger>com.ti.debug.engine.scripting.CallStack</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.CallStack$CallStackListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:16.997856200Z</date>
+  <millis>1773496156997</millis>
+  <nanos>856200</nanos>
+  <sequence>114</sequence>
+  <logger>com.ti.debug.engine.scripting.CallStack</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.CallStack$CallStackListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.002859100Z</date>
+  <millis>1773496157002</millis>
+  <nanos>859100</nanos>
+  <sequence>115</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.003857900Z</date>
+  <millis>1773496157003</millis>
+  <nanos>857900</nanos>
+  <sequence>116</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>onEvent</method>
+  <thread>23</thread>
+  <message>Evaluated expression: PC</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.003857900Z</date>
+  <millis>1773496157003</millis>
+  <nanos>857900</nanos>
+  <sequence>117</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.004857100Z</date>
+  <millis>1773496157004</millis>
+  <nanos>857100</nanos>
+  <sequence>118</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>evaluate</method>
+  <thread>1</thread>
+  <message>RETURN 0x8804</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.004857100Z</date>
+  <millis>1773496157004</millis>
+  <nanos>857100</nanos>
+  <sequence>119</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>evaluate</method>
+  <thread>1</thread>
+  <message>ENTRY sExpression: LR</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.004857100Z</date>
+  <millis>1773496157004</millis>
+  <nanos>857100</nanos>
+  <sequence>120</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>eval</method>
+  <thread>1</thread>
+  <message>Requesting evaluation of expression: "LR"</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.004857100Z</date>
+  <millis>1773496157004</millis>
+  <nanos>857100</nanos>
+  <sequence>121</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.004857100Z</date>
+  <millis>1773496157004</millis>
+  <nanos>857100</nanos>
+  <sequence>122</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>Target is connected</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.004857100Z</date>
+  <millis>1773496157004</millis>
+  <nanos>857100</nanos>
+  <sequence>123</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.004857100Z</date>
+  <millis>1773496157004</millis>
+  <nanos>857100</nanos>
+  <sequence>124</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.004857100Z</date>
+  <millis>1773496157004</millis>
+  <nanos>857100</nanos>
+  <sequence>125</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>Target is halted</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.005857100Z</date>
+  <millis>1773496157005</millis>
+  <nanos>857100</nanos>
+  <sequence>126</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.005857100Z</date>
+  <millis>1773496157005</millis>
+  <nanos>857100</nanos>
+  <sequence>127</sequence>
+  <logger>com.ti.debug.engine.scripting.CallStack</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.CallStack$CallStackListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.005857100Z</date>
+  <millis>1773496157005</millis>
+  <nanos>857100</nanos>
+  <sequence>128</sequence>
+  <logger>com.ti.debug.engine.scripting.CallStack</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.CallStack$CallStackListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.005857100Z</date>
+  <millis>1773496157005</millis>
+  <nanos>857100</nanos>
+  <sequence>129</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.010856800Z</date>
+  <millis>1773496157010</millis>
+  <nanos>856800</nanos>
+  <sequence>130</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>onEvent</method>
+  <thread>23</thread>
+  <message>Evaluated expression: LR</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.011860600Z</date>
+  <millis>1773496157011</millis>
+  <nanos>860600</nanos>
+  <sequence>131</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.011860600Z</date>
+  <millis>1773496157011</millis>
+  <nanos>860600</nanos>
+  <sequence>132</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>evaluate</method>
+  <thread>1</thread>
+  <message>RETURN 0x8801</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.011860600Z</date>
+  <millis>1773496157011</millis>
+  <nanos>860600</nanos>
+  <sequence>133</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>evaluate</method>
+  <thread>1</thread>
+  <message>ENTRY sExpression: SP</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.011860600Z</date>
+  <millis>1773496157011</millis>
+  <nanos>860600</nanos>
+  <sequence>134</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>eval</method>
+  <thread>1</thread>
+  <message>Requesting evaluation of expression: "SP"</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.011860600Z</date>
+  <millis>1773496157011</millis>
+  <nanos>860600</nanos>
+  <sequence>135</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.012855900Z</date>
+  <millis>1773496157012</millis>
+  <nanos>855900</nanos>
+  <sequence>136</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>Target is connected</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.012855900Z</date>
+  <millis>1773496157012</millis>
+  <nanos>855900</nanos>
+  <sequence>137</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isConnected</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.012855900Z</date>
+  <millis>1773496157012</millis>
+  <nanos>855900</nanos>
+  <sequence>138</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.018857100Z</date>
+  <millis>1773496157018</millis>
+  <nanos>857100</nanos>
+  <sequence>139</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>Target is halted</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.018857100Z</date>
+  <millis>1773496157018</millis>
+  <nanos>857100</nanos>
+  <sequence>140</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>isHalted</method>
+  <thread>1</thread>
+  <message>RETURN true</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.018857100Z</date>
+  <millis>1773496157018</millis>
+  <nanos>857100</nanos>
+  <sequence>141</sequence>
+  <logger>com.ti.debug.engine.scripting.CallStack</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.CallStack$CallStackListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.029858200Z</date>
+  <millis>1773496157029</millis>
+  <nanos>858200</nanos>
+  <sequence>142</sequence>
+  <logger>com.ti.debug.engine.scripting.CallStack</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.CallStack$CallStackListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.030857500Z</date>
+  <millis>1773496157030</millis>
+  <nanos>857500</nanos>
+  <sequence>143</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.035862500Z</date>
+  <millis>1773496157035</millis>
+  <nanos>862500</nanos>
+  <sequence>144</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>onEvent</method>
+  <thread>23</thread>
+  <message>Evaluated expression: SP</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.035862500Z</date>
+  <millis>1773496157035</millis>
+  <nanos>862500</nanos>
+  <sequence>145</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression$ExprEvalListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.036855600Z</date>
+  <millis>1773496157036</millis>
+  <nanos>855600</nanos>
+  <sequence>146</sequence>
+  <logger>com.ti.debug.engine.scripting.Expression</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Expression</class>
+  <method>evaluate</method>
+  <thread>1</thread>
+  <message>RETURN 0x200027a0</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.039857500Z</date>
+  <millis>1773496157039</millis>
+  <nanos>857500</nanos>
+  <sequence>147</sequence>
+  <logger>com.ti</logger>
+  <level>INFO</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>traceWrite</method>
+  <thread>1</thread>
+  <message>Primeira parada: PC=0x8804 LR=0x8801 SP=0x200027a0</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.039857500Z</date>
+  <millis>1773496157039</millis>
+  <nanos>857500</nanos>
+  <sequence>148</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>removeAll</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.039857500Z</date>
+  <millis>1773496157039</millis>
+  <nanos>857500</nanos>
+  <sequence>149</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>removeAll</method>
+  <thread>1</thread>
+  <message>Getting breakpoint manager</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.039857500Z</date>
+  <millis>1773496157039</millis>
+  <nanos>857500</nanos>
+  <sequence>150</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>removeAll</method>
+  <thread>1</thread>
+  <message>Removing 3 breakpoint(s)</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.044856500Z</date>
+  <millis>1773496157044</millis>
+  <nanos>856500</nanos>
+  <sequence>151</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>removeAll</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.045857300Z</date>
+  <millis>1773496157045</millis>
+  <nanos>857300</nanos>
+  <sequence>152</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>ENTRY sFile: startup_ccs.c nLine: 260</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.045857300Z</date>
+  <millis>1773496157045</millis>
+  <nanos>857300</nanos>
+  <sequence>153</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Getting breakpoint manager</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.045857300Z</date>
+  <millis>1773496157045</millis>
+  <nanos>857300</nanos>
+  <sequence>154</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Assigning source-line location</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.045857300Z</date>
+  <millis>1773496157045</millis>
+  <nanos>857300</nanos>
+  <sequence>155</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>createAtLocation</method>
+  <thread>1</thread>
+  <message>Creating new breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.046857600Z</date>
+  <millis>1773496157046</millis>
+  <nanos>857600</nanos>
+  <sequence>156</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Adding breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.046857600Z</date>
+  <millis>1773496157046</millis>
+  <nanos>857600</nanos>
+  <sequence>157</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Enabling breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.050856Z</date>
+  <millis>1773496157050</millis>
+  <nanos>856000</nanos>
+  <sequence>158</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>RETURN 18</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.050856Z</date>
+  <millis>1773496157050</millis>
+  <nanos>856000</nanos>
+  <sequence>159</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>ENTRY sFile: startup_ccs.c nLine: 280</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.050856Z</date>
+  <millis>1773496157050</millis>
+  <nanos>856000</nanos>
+  <sequence>160</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Getting breakpoint manager</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.050856Z</date>
+  <millis>1773496157050</millis>
+  <nanos>856000</nanos>
+  <sequence>161</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>Assigning source-line location</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.051854800Z</date>
+  <millis>1773496157051</millis>
+  <nanos>854800</nanos>
+  <sequence>162</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>createAtLocation</method>
+  <thread>1</thread>
+  <message>Creating new breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.051854800Z</date>
+  <millis>1773496157051</millis>
+  <nanos>854800</nanos>
+  <sequence>163</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Adding breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.052854700Z</date>
+  <millis>1773496157052</millis>
+  <nanos>854700</nanos>
+  <sequence>164</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>addAndEnable</method>
+  <thread>1</thread>
+  <message>Enabling breakpoint</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.055854200Z</date>
+  <millis>1773496157055</millis>
+  <nanos>854200</nanos>
+  <sequence>165</sequence>
+  <logger>com.ti.debug.engine.scripting.Breakpoint</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Breakpoint</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>RETURN 20</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.055854200Z</date>
+  <millis>1773496157055</millis>
+  <nanos>854200</nanos>
+  <sequence>166</sequence>
+  <logger>com.ti</logger>
+  <level>INFO</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>traceWrite</method>
+  <thread>1</thread>
+  <message>Continuando a execucao para observar fault/default handler.</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.055854200Z</date>
+  <millis>1773496157055</millis>
+  <nanos>854200</nanos>
+  <sequence>167</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.055854200Z</date>
+  <millis>1773496157055</millis>
+  <nanos>854200</nanos>
+  <sequence>168</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.ExecutionOperation</class>
+  <method>go</method>
+  <thread>1</thread>
+  <message>Requesting target execution</message>
+</record>
+<record>
+  <date>2026-03-14T13:49:17.056857200Z</date>
+  <millis>1773496157056</millis>
+  <nanos>857200</nanos>
+  <sequence>169</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.066767800Z</date>
+  <millis>1773496277066</millis>
+  <nanos>767800</nanos>
+  <sequence>170</sequence>
+  <logger>com.ti.ccstudio.scripting.environment.ScriptingException</logger>
+  <level>SEVERE</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingException</class>
+  <method>logException</method>
+  <thread>1</thread>
+  <message>Timed out after 120000ms</message>
+  <exception>
+    <message>com.ti.ccstudio.scripting.environment.ScriptingException: Timed out after 120000ms</message>
+    <frame>
+      <class>com.ti.debug.engine.scripting.AbstractListener</class>
+      <method>waitUntil</method>
+      <line>114</line>
+    </frame>
+    <frame>
+      <class>com.ti.debug.engine.scripting.AbstractListener</class>
+      <method>waitUntil</method>
+      <line>125</line>
+    </frame>
+    <frame>
+      <class>com.ti.debug.engine.scripting.ExecutionOperation</class>
+      <method>go</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>com.ti.debug.engine.scripting.Target</class>
+      <method>run</method>
+      <line>818</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DirectMethodHandleAccessor</class>
+      <method>invoke</method>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.MemberBox</class>
+      <method>invoke</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.NativeJavaMethod</class>
+      <method>call</method>
+      <line>201</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.optimizer.OptRuntime</class>
+      <method>callProp0</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.gen.c1</class>
+      <method>_c0</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.gen.c1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.ContextFactory</class>
+      <method>doTopCall</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.ScriptRuntime</class>
+      <method>doTopCall</method>
+      <line>2755</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.gen.c1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.gen.c1</class>
+      <method>exec</method>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>evaluateScript</method>
+      <line>500</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>processFileSecure</method>
+      <line>422</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>processFile</method>
+      <line>388</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>processSource</method>
+      <line>379</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>processFiles</method>
+      <line>176</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main$IProxy</class>
+      <method>run</method>
+      <line>97</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.Context</class>
+      <method>call</method>
+      <line>540</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.ContextFactory</class>
+      <method>call</method>
+      <line>447</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>exec</method>
+      <line>159</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>main</method>
+      <line>137</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.067726400Z</date>
+  <millis>1773496277067</millis>
+  <nanos>726400</nanos>
+  <sequence>171</sequence>
+  <logger>com.ti.ccstudio.scripting.environment.ScriptingException</logger>
+  <level>SEVERE</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingException</class>
+  <method>logException</method>
+  <thread>1</thread>
+  <message>com.ti.debug.engine.scripting.Target.run(): Timed out after 120000ms</message>
+  <exception>
+    <message>com.ti.ccstudio.scripting.environment.ScriptingException: com.ti.debug.engine.scripting.Target.run(): Timed out after 120000ms</message>
+    <frame>
+      <class>com.ti.debug.engine.scripting.ExecutionOperation</class>
+      <method>go</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.ti.debug.engine.scripting.Target</class>
+      <method>run</method>
+      <line>818</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DirectMethodHandleAccessor</class>
+      <method>invoke</method>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.MemberBox</class>
+      <method>invoke</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.NativeJavaMethod</class>
+      <method>call</method>
+      <line>201</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.optimizer.OptRuntime</class>
+      <method>callProp0</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.gen.c1</class>
+      <method>_c0</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.gen.c1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.ContextFactory</class>
+      <method>doTopCall</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.ScriptRuntime</class>
+      <method>doTopCall</method>
+      <line>2755</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.gen.c1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.gen.c1</class>
+      <method>exec</method>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>evaluateScript</method>
+      <line>500</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>processFileSecure</method>
+      <line>422</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>processFile</method>
+      <line>388</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>processSource</method>
+      <line>379</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>processFiles</method>
+      <line>176</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main$IProxy</class>
+      <method>run</method>
+      <line>97</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.Context</class>
+      <method>call</method>
+      <line>540</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.ContextFactory</class>
+      <method>call</method>
+      <line>447</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>exec</method>
+      <line>159</line>
+    </frame>
+    <frame>
+      <class>org.mozilla.javascript.tools.shell.Main</class>
+      <method>main</method>
+      <line>137</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.072726400Z</date>
+  <millis>1773496277072</millis>
+  <nanos>726400</nanos>
+  <sequence>172</sequence>
+  <logger>com.ti</logger>
+  <level>INFO</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>traceWrite</method>
+  <thread>1</thread>
+  <message>EXCEPTION: JavaException: com.ti.ccstudio.scripting.environment.ScriptingException: com.ti.debug.engine.scripting.Target.run(): Timed out after 120000ms</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.072726400Z</date>
+  <millis>1773496277072</millis>
+  <nanos>726400</nanos>
+  <sequence>173</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>halt</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.072726400Z</date>
+  <millis>1773496277072</millis>
+  <nanos>726400</nanos>
+  <sequence>174</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>halt</method>
+  <thread>1</thread>
+  <message>Requesting target halt</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.073726300Z</date>
+  <millis>1773496277073</millis>
+  <nanos>726300</nanos>
+  <sequence>175</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.096816700Z</date>
+  <millis>1773496277096</millis>
+  <nanos>816700</nanos>
+  <sequence>176</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.AbstractListener</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Target has halted at 0x00007E4C</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.096816700Z</date>
+  <millis>1773496277096</millis>
+  <nanos>816700</nanos>
+  <sequence>177</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.AbstractListener</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>Target has halted at 0x00007E4C</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.096816700Z</date>
+  <millis>1773496277096</millis>
+  <nanos>816700</nanos>
+  <sequence>178</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.APIContainer$OnHaltListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.097774700Z</date>
+  <millis>1773496277097</millis>
+  <nanos>774700</nanos>
+  <sequence>179</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>halt</method>
+  <thread>1</thread>
+  <message>Target halted at 0x7e4c</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.097774700Z</date>
+  <millis>1773496277097</millis>
+  <nanos>774700</nanos>
+  <sequence>180</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>halt</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.097774700Z</date>
+  <millis>1773496277097</millis>
+  <nanos>774700</nanos>
+  <sequence>181</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>disconnect</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.097774700Z</date>
+  <millis>1773496277097</millis>
+  <nanos>774700</nanos>
+  <sequence>182</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>disconnect</method>
+  <thread>1</thread>
+  <message>Requesting target disconnect</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.099729800Z</date>
+  <millis>1773496277099</millis>
+  <nanos>729800</nanos>
+  <sequence>183</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target$OnDisconnectedListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.240781600Z</date>
+  <millis>1773496277240</millis>
+  <nanos>781600</nanos>
+  <sequence>184</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target$OnDisconnectedListener</class>
+  <method>onEvent</method>
+  <thread>23</thread>
+  <message>Target is now disconnected</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.240781600Z</date>
+  <millis>1773496277240</millis>
+  <nanos>781600</nanos>
+  <sequence>185</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target$OnDisconnectedListener</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.240781600Z</date>
+  <millis>1773496277240</millis>
+  <nanos>781600</nanos>
+  <sequence>186</sequence>
+  <logger>com.ti.debug.engine.scripting.Target</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.Target</class>
+  <method>disconnect</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.241784300Z</date>
+  <millis>1773496277241</millis>
+  <nanos>784300</nanos>
+  <sequence>187</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>terminate</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.241784300Z</date>
+  <millis>1773496277241</millis>
+  <nanos>784300</nanos>
+  <sequence>188</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>terminate</method>
+  <thread>1</thread>
+  <message>Firing: onSessionTerminating()</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.241784300Z</date>
+  <millis>1773496277241</millis>
+  <nanos>784300</nanos>
+  <sequence>189</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>terminate</method>
+  <thread>1</thread>
+  <message>Unregistering this session from the DebugServer</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.241784300Z</date>
+  <millis>1773496277241</millis>
+  <nanos>784300</nanos>
+  <sequence>190</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>terminate</method>
+  <thread>1</thread>
+  <message>Firing: onSessionTerminated()</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.241784300Z</date>
+  <millis>1773496277241</millis>
+  <nanos>784300</nanos>
+  <sequence>191</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>disposeAndUnload</method>
+  <thread>1</thread>
+  <message>Firing: onServerStopping()</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.241784300Z</date>
+  <millis>1773496277241</millis>
+  <nanos>784300</nanos>
+  <sequence>192</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>disposeAndUnload</method>
+  <thread>1</thread>
+  <message>Stopping DebugServer</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.242726700Z</date>
+  <millis>1773496277242</millis>
+  <nanos>726700</nanos>
+  <sequence>193</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer$Callback</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>ENTRY com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e timeout: 120000 (ms)</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.533775900Z</date>
+  <millis>1773496277533</millis>
+  <nanos>775900</nanos>
+  <sequence>194</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>terminate</method>
+  <thread>23</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.533775900Z</date>
+  <millis>1773496277533</millis>
+  <nanos>775900</nanos>
+  <sequence>195</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>terminate</method>
+  <thread>23</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.534724900Z</date>
+  <millis>1773496277534</millis>
+  <nanos>724900</nanos>
+  <sequence>196</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer$Callback</class>
+  <method>waitUntil</method>
+  <thread>1</thread>
+  <message>RETURN com.ti.ccstudio.scripting.environment.ScriptingEnvironment@47d90b9e</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.534724900Z</date>
+  <millis>1773496277534</millis>
+  <nanos>724900</nanos>
+  <sequence>197</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>disposeAndUnload</method>
+  <thread>1</thread>
+  <message>Firing: onServerStopped()</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.534724900Z</date>
+  <millis>1773496277534</millis>
+  <nanos>724900</nanos>
+  <sequence>198</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugSession</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugSession</class>
+  <method>terminate</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.534724900Z</date>
+  <millis>1773496277534</millis>
+  <nanos>724900</nanos>
+  <sequence>199</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>stop</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.534724900Z</date>
+  <millis>1773496277534</millis>
+  <nanos>724900</nanos>
+  <sequence>200</sequence>
+  <logger>com.ti.debug.engine.scripting.DebugServer</logger>
+  <level>FINER</level>
+  <class>com.ti.debug.engine.scripting.DebugServer</class>
+  <method>stop</method>
+  <thread>1</thread>
+  <message>RETURN</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.534724900Z</date>
+  <millis>1773496277534</millis>
+  <nanos>724900</nanos>
+  <sequence>201</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>traceEnd</method>
+  <thread>1</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2026-03-14T13:51:17.535728200Z</date>
+  <millis>1773496277535</millis>
+  <nanos>728200</nanos>
+  <sequence>202</sequence>
+  <logger>com.ti</logger>
+  <level>FINER</level>
+  <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+  <method>traceEnd</method>
+  <thread>1</thread>
+  <message>Flushing and closing file stream</message>
+</record>
+</log>

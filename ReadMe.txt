@@ -35,3 +35,16 @@ TIMER0
 
 UART0
 - PA0 RX, PA1 TX
+
+Mapa de pinos:
+PC4 -> LCD_RS
+PC5 -> LCD_E
+PC6 -> LCD_D4
+PC7 -> LCD_D7
+PC4 -> LCD_RS
+PD3 -> LCD_D6
+PE5 -> LCD_D5
+PF0 -> LED_D4
+PF4 -> LED_D3
+PN1 -> LED_D1
+PN0 -> LED_D2

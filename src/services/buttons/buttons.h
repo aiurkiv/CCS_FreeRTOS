@@ -1,6 +1,8 @@
 #ifndef BUTTONS_H_
 #define BUTTONS_H_
 
+#include "definitions.h"
+
 typedef enum
 {
     ACT_EVENT_BTN_DETECT,           // Detectou botão
@@ -8,12 +10,16 @@ typedef enum
     ACT_EVENT_BTN_REPEAT,           // auto-repeat botão
 } ACT_EVENT;
 
-typedef void (*buttonj_cb_t)(uint8_t pressed_mask, void *user_ctx);
-// pressed_mask: bits GPIO_PIN_0 / GPIO_PIN_1 (1 = pressionado)
+/* Callback usado para encaminhar o evento padronizado dos botoes. */
+typedef void (*service_buttons_callback_t)(const SERVICE_KEYBOARD_EVENT *event, void *ctx);
 
+/* Inicializa o servico dos botoes e o debounce por timer. */
 void Buttons_Init(uint32_t sysclk_hz);
-void Buttons_SetCallback(buttonj_cb_t cb, void *user_ctx);
+/* Registra o callback que recebera os eventos padronizados dos botoes. */
+void Buttons_SetEventCallback(service_buttons_callback_t cb, void *ctx);
+/* Habilita a interrupcao dos botoes. */
 void Buttons_Enable(void);
+/* Desabilita a interrupcao dos botoes. */
 void Buttons_Disable(void);
 
 #endif

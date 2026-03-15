@@ -80,9 +80,18 @@
 #define configUSE_TRACE_FACILITY            1
 #define configUSE_16_BIT_TICKS              0
 #define configIDLE_SHOULD_YIELD             0
+
+/* Set the following configUSE_* constants to 1 to include the named feature in
+ * the build, or 0 to exclude the named feature from the build. */
 #define configUSE_CO_ROUTINES               0
+#define configUSE_TASK_NOTIFICATIONS        1
 #define configUSE_MUTEXES                   1
 #define configUSE_RECURSIVE_MUTEXES         1
+#define configUSE_COUNTING_SEMAPHORES       1
+#define configUSE_QUEUE_SETS                1
+#define configUSE_APPLICATION_TASK_TAG      0
+#define configUSE_TASK_FPU_SUPPORT          0
+
 #define configCHECK_FOR_STACK_OVERFLOW      2   // Trata falha ao alocar memória para mallocs
 //#define configCHECK_FOR_STACK_OVERFLOW      0
 // Gerei define abaixo conforme GPT explicou. Trata falha ao alocar memória para mallocs

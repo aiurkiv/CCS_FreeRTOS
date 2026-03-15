@@ -36,6 +36,8 @@ src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/
 src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/list.h
 src/tasks_work.obj: ../src/apps/app_led_blink/app_led_blink.h
 src/tasks_work.obj: ../src/apps/app/app.h
+src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/queue.h
+src/tasks_work.obj: C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/keyboard_usb/keyboard_usb_service.h
 
 ../src/tasks_work.c:
 
@@ -108,4 +110,8 @@ C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/incl
 ../src/apps/app_led_blink/app_led_blink.h:
 
 ../src/apps/app/app.h:
+
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/third_party/FreeRTOS/Source/include/queue.h:
+
+C:/Anderson/Projetos/CCS_WorkSpace/freertos/src/services/keyboard_usb/keyboard_usb_service.h:
 

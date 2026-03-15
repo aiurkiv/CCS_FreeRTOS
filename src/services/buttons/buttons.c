@@ -11,18 +11,17 @@
 #include "driverlib/rom_map.h"
 
 #include "buttons.h"
-#include "definitions.h"
 
-#define BTN_MASK   0x03   // (GPIO_PIN_0 | GPIO_PIN_1)
+#define BTN_MASK   0x03         // (GPIO_PIN_0 | GPIO_PIN_1)
 #define BTN_DETECT_MS   20U     // Tempo para debounce
 #define BTN_CONTINUE_MS 400U    // Tempo para identificar que botão continua pressionado e iniciar repeat
 #define BTN_REPEAT_MS   100U    // Tempo para repetição do botão
 
-static uint32_t s_sysclk;
-static buttonj_cb_t s_cb;
-static void *s_ctx;
+static uint32_t s_sysclk;                         /* Clock do sistema usado pelo timer. */
+static service_buttons_callback_t s_event_cb;    /* Callback de eventos dos botoes. */
+static void *s_event_ctx;                        /* Contexto do callback. */
 
-static ACT_EVENT btn;
+static ACT_EVENT btn;                            /* Estado do debounce/repeat dos botoes. */
 
 /*  Timer0A_StartOneShot_ms(uint32_t ms)
     Timer0A está configurado com tempo em 32 bits, one-shot
@@ -39,20 +38,44 @@ static inline void Timer0A_StartOneShot_ms(uint32_t ms)
     MAP_TimerEnable(TIMER0_BASE, TIMER_A);
 }
 
+/*
+ * Timer0AIntHandler(void)
+ *
+ * ISR do timer usada para debounce e auto-repeat dos botoes. Quando ha
+ * uma leitura valida, converte o estado dos botoes em SERVICE_KEYBOARD_EVENT.
+ */
 void Timer0AIntHandler(void)
 {
+    static SERVICE_KEYBOARD_EVENT kb_evt;
     // LIMPA a interrupção do timer
     MAP_TimerIntClear(TIMER0_BASE, TIMER_TIMA_TIMEOUT);
     // Leio os botões da GPIOJ
     uint8_t pressed = MAP_GPIOPinRead(GPIO_PORTJ_BASE, BTN_MASK);
     // Como os botões estão em PULL UP, inverto e uso mascara para pegar apenas os pinos 0 e 1
     pressed = (~pressed) & BTN_MASK;
+
+    kb_evt.ch = 0;
+    if(pressed == GPIO_PIN_0)
+        kb_evt.type = SERVICE_KEYBOARD_EVT_UP;
+    else if(pressed == GPIO_PIN_1)
+        kb_evt.type = SERVICE_KEYBOARD_EVT_DOWN;
+    else if(pressed == (GPIO_PIN_0 | GPIO_PIN_1))
+    {
+        kb_evt.type = SERVICE_KEYBOARD_EVT_COMB;
+        kb_evt.ch = (char)pressed;
+    }
+    else
+    {
+        kb_evt.type = SERVICE_KEYBOARD_EVT_COMB;
+        kb_evt.ch = (char)pressed;
+    }
+        
     // Trato se houver algum botão apertado
     if(pressed)
     {
         // Executa o callback
-        if(s_cb)
-            s_cb(pressed, s_ctx); 
+        if(s_event_cb)
+            s_event_cb(&kb_evt, s_event_ctx);
         // Se detectou novo aperto, configuro o timer para 400ms e ativo.
         // Aqui ele irá verificar se o usuário permanece com o botão apertado. Se sim é para re
         if(btn == ACT_EVENT_BTN_DETECT)
@@ -76,6 +99,12 @@ void Timer0AIntHandler(void)
     MAP_GPIOIntEnable(GPIO_PORTJ_BASE, BTN_MASK);
 }
 
+/*
+ * GPIOJIntHandler(void)
+ *
+ * ISR da GPIOJ que detecta a transicao inicial e agenda o debounce
+ * no Timer0A.
+ */
 void GPIOJIntHandler(void)
 {
     MAP_GPIOIntDisable(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1);   // Desabilito as interrupções dos pinos da GPIOJ dos botões
@@ -83,18 +112,19 @@ void GPIOJIntHandler(void)
     Timer0A_StartOneShot_ms(BTN_DETECT_MS);                         // Configuro o timer para 20ms
     btn = ACT_EVENT_BTN_DETECT; // Detectou nova ação no botão
 }
-
-void Buttons_SetCallback(buttonj_cb_t cb, void *user_ctx)
+/* Registra o callback que recebera os eventos padronizados dos botoes. */
+void Buttons_SetEventCallback(service_buttons_callback_t cbk, void *ctx)
 {
-    s_cb  = cb;
-    s_ctx = user_ctx;
+    s_event_cb  = cbk;
+    s_event_ctx = ctx;
 }
 
+/* Inicializa o hardware e as interrupcoes do servico de botoes. */
 void Buttons_Init(uint32_t sysclk_hz)
 {
     s_sysclk = sysclk_hz;
-    s_cb = 0;
-    s_ctx = 0;
+    s_event_cb = 0;
+    s_event_ctx = 0;
 
     ////////////////////////////////////////////////////////
     // Configurações da GPIO para botões (GPIOJ).
@@ -137,12 +167,14 @@ void Buttons_Init(uint32_t sysclk_hz)
     MAP_IntEnable(INT_GPIOJ);
 }
 
+/* Habilita o recebimento de interrupcoes dos botoes. */
 void Buttons_Enable(void)
 {
     MAP_GPIOIntClear(GPIO_PORTJ_BASE, BTN_MASK);
     MAP_GPIOIntEnable(GPIO_PORTJ_BASE, BTN_MASK);
 }
 
+/* Desabilita o recebimento de interrupcoes dos botoes. */
 void Buttons_Disable(void)
 {
     MAP_GPIOIntDisable(GPIO_PORTJ_BASE, BTN_MASK);
